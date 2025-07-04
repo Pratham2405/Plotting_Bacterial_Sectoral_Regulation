@@ -1,0 +1,8 @@
+name: sectoral-model
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - scipy
