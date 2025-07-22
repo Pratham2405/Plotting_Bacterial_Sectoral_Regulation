@@ -19,8 +19,6 @@ bacterial-growth-models/
 ├── LICENSE                             # License for the project
 ├── requirements.txt                    # Python dependencies for pip
 ├── environment.yml                     # Conda environment specification
-├── .gitignore                         # Git ignore rules
-├── BBD_Endsem_Eval.pdf                # Main research report and methodology
 │
 ├── src/                               # Source code directory
 │   ├── pop_v_t.py                     # Population dynamics with division simulation
@@ -29,11 +27,11 @@ bacterial-growth-models/
 │   ├── mu-vs-F_e-w-o-Division.py     # Growth laws without division effects
 │   └── n_v_t.py                      # Fluctuating environment analysis
 │
-├── results/                           # Generated plots and output files
-│   ├── population_dynamics/           # Time series plots
-│   ├── growth_laws/                   # Monod kinetics and growth rate plots
-│   └── regulation_analysis/           # Regulatory response comparisons
-│
+├── plots/                           # Generated plots and output files
+│   ├── PTRWF_2018/                  # PTRWF replication
+│   ├── PTR_2016/                    # PTR replication        
+│   └── min()/                       # Incorporating min() methodology into PTRWF.
+|
 └── docs/                             # Additional documentation
     ├── model_equations.md            # Mathematical formulations
     └── parameter_reference.md        # Parameter values and sources
