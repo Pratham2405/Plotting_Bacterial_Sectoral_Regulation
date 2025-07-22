@@ -13,7 +13,7 @@ This project investigates bacterial growth laws through computational modeling u
 - Propose alternative regulation paradigms within the PTRWF framework.
 
 ## Directory Structure
-
+```
 bacterial-growth-models/
 ├── README.md                           # This file - project overview and instructions
 ├── LICENSE                             # License for the project
@@ -37,4 +37,4 @@ bacterial-growth-models/
 └── docs/                             # Additional documentation
     ├── model_equations.md            # Mathematical formulations
     └── parameter_reference.md        # Parameter values and sources
-
+```
