@@ -12,6 +12,35 @@ This project investigates bacterial growth laws through computational modeling u
 - Investigate bacterial behavior in fluctuating vs. stable environmental conditions.
 - Propose alternative regulation paradigms within the PTRWF framework.
 
+## Environment Setup
+
+### Prerequisites
+- Python 3.12 or higher
+- Git
+  
+### Installation
+
+Clone the repository:
+```
+git clone <repository-url>
+cd bacterial-growth-models
+```
+Create and activate a virtual environment (recommended):
+```
+python -m venv bacterial-env
+source bacterial-env/bin/activate  # On Windows: bacterial-env\Scripts\activate
+```
+Install dependencies:
+Using pip:
+```
+pip install -r requirements.txt
+```
+Or using conda:
+```
+conda env create -f environment.yml
+conda activate bacterial-growth-env
+```
+
 ## Directory Structure
 ```
 bacterial-growth-models/
