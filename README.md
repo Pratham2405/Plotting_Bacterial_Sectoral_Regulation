@@ -21,11 +21,8 @@ bacterial-growth-models/
 ├── environment.yml                     # Conda environment specification
 │
 ├── src/                               # Source code directory
-│   ├── pop_v_t.py                     # Population dynamics with division simulation
-│   ├── mu_v_f.py                      # Growth rate vs food concentration analysis
-│   ├── CNB.py                         # Cost-No-Benefit model implementation
-│   ├── mu-vs-F_e-w-o-Division.py     # Growth laws without division effects
-│   └── n_v_t.py                      # Fluctuating environment analysis
+│   ├── PTR_2016/                       # Scripts for replicating PTR model(Jain, 2016)
+│   └── PTRWF_2018/                     # Scripts for replicating PTRWF model(Jain, 2018)
 │
 ├── plots/                           # Generated plots and output files
 │   ├── PTRWF_2018/                  # PTRWF replication
