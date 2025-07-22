@@ -23,7 +23,7 @@ This project investigates bacterial growth laws through computational modeling u
 Clone the repository:
 ```
 git clone <repository-url>
-cd bacterial-growth-models
+cd Plotting_Bacterial_Sectoral_Regulation
 ```
 Create and activate a virtual environment (recommended):
 ```
@@ -43,7 +43,7 @@ conda activate bacterial-growth-env
 
 ## Directory Structure
 ```
-bacterial-growth-models/
+Plotting_Bacterial_Sectoral_Regulation/
 ├── README.md                           # This file - project overview and instructions
 ├── LICENSE                             # License for the project
 ├── requirements.txt                    # Python dependencies for pip
