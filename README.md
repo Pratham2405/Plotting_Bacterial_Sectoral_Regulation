@@ -54,11 +54,8 @@ Plotting_Bacterial_Sectoral_Regulation/
 │   └── PTRWF_2018/                     # Scripts for replicating PTRWF model(Jain, 2018)
 │
 ├── plots/                           # Generated plots and output files
-│   ├── PTRWF_2018/                  # PTRWF replication
-│   ├── PTR_2016/                    # PTR replication        
-│   └── min()/                       # Incorporating min() methodology into PTRWF.
-|
-└── docs/                             # Additional documentation
-    ├── model_equations.md            # Mathematical formulations
-    └── parameter_reference.md        # Parameter values and sources
+    ├── PTRWF_2018/                  # PTRWF replication
+    ├── PTR_2016/                    # PTR replication        
+    └── min()/                       # Incorporating min() methodology into PTRWF.
+
 ```
