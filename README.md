@@ -46,6 +46,7 @@ conda activate bacterial-growth-env
 Plotting_Bacterial_Sectoral_Regulation/
 ├── README.md                           # This file - project overview and instructions
 ├── LICENSE                             # License for the project
+├── Project_Report.pdf                  # Complete documentation of the Project with Introduction, Literature Survey and Results
 ├── requirements.txt                    # Python dependencies for pip
 ├── environment.yml                     # Conda environment specification
 │
